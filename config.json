@@ -1,0 +1,17 @@
+
+{
+  "name": "RoBATS",
+  "prefix": "-",
+  "token": "TOKEN HERE",
+  "status": {
+      "state": "online",
+      "type": "PLAYING",
+      "name": "-help for support"
+  },
+  "chat": {
+      "url": "",
+      "bid": "",
+      "key": "",
+      "uid": ""
+  }
+}
