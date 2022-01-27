@@ -12,7 +12,7 @@ As you might've noticed, dear reader, the AI module for the bot is missing. The 
 
 # Imagemagick support
 
-Basic support for image manipulation was being added some weeks ago, when I lost interest in this project again... Beware! Its method for taking input and actually using imagemagick is DANGEROUS. I suspect specific filenames could result in remote code execution. If you do not want this experimental module with your fork or copy of the bot, remove the "imagick.js" folder in "src/commands".
+Basic support for image manipulation was being added some weeks ago, when I lost interest in this project again... Beware! Its method for taking input and actually using imagemagick is DANGEROUS. I suspect specific filenames could result in remote code execution. If you do not want this experimental module with your fork or copy of the bot, remove the "imagick.js" file in "src/commands".
 
 # Potential bugs
 
