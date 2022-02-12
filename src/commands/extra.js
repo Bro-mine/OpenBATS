@@ -17,6 +17,7 @@ client.on('messageCreate', message => {
     	message.channel.send({ files: ['./changelog.html'] }); 
     } else if (message.content.toLowerCase() == "-templeos") {
 	message.channel.send({ files: ['./images/TempleOSLite.ISO'] });
+	// Technically, an ISO is an image, right?
     }
 });
 client.login(config.token);
