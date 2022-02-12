@@ -1,4 +1,4 @@
-const { Client, Intents} = require('discord.js');
+/*const { Client, Intents} = require('discord.js');
 const Discord = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const execSync = require('child_process').execSync;
@@ -33,4 +33,6 @@ client.on('messageCreate', message => {
 				 
 				 
 
-client.login(config.token);
+client.login(config.token);*/
+
+// This is not ready yet, and I don't want people taking down the bot because this is broken in its current state.

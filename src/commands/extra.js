@@ -15,6 +15,8 @@ client.on('messageCreate', message => {
 	message.channel.send('There you go!');
     } else if (message.content.toLowerCase() == '-changelog') {
     	message.channel.send({ files: ['./changelog.html'] }); 
+    } else if (message.content.toLowerCase() == "-templeos") {
+	message.channel.send({ files: ['./images/TempleOSLite.ISO'] });
     }
 });
 client.login(config.token);
