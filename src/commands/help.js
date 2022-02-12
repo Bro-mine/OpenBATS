@@ -27,7 +27,7 @@ client.on('messageCreate', message => {
 		**eat** - Same as before, but with food
 		**invite** - lol like anyone's gonna use this
 		**incorrect** - Incorrect quote generator, supports 1 to 4 names
-		**chatbot** - Just ping RoBATS, and say something!
+		**chatbot** - Just ping RoBATS, and say something! - **Deactivated for now**
                 **changelog** - Sends a copy of the changelog file
 		\n\nmore commands will appear as new features are added. The chatbot function does not require invoking a command such as "-chatbot", just read the description for that one.
 		`, inline: true });
