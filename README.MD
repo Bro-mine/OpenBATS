@@ -26,6 +26,6 @@ You can contribute to the project, use the source as it is, use the official bot
 
 # To any potential readers from outside the server
 
-If you want to know more, join the server at https://discord.gg/aSPzYGJq3k, someone ought to tell you more. The official bot is also in that server, if you want to invite it.
+If you want to know more, join the server at https://discord.gg/aSPzYGJq3k (EDIT: That link no longer works, I don't have another to replace it), someone ought to tell you more. The official bot is also in that server, if you want to invite it.
 
 This bot basically works as a digital bartender, and can serve food and drinks (well, jpeg images, at least) to its users! It also has some smaller features, such as an ASCII art text generator and an Incorrect Quote Generator. It was made for a niche purpose, so maybe the source would interest one more than its functions.
