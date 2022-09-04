@@ -1,6 +1,6 @@
-/*const { Client, Intents} = require('discord.js');
+/*const { Client, GatewayIntentBits } = require('discord.js');
 const Discord = require('discord.js');
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 const execSync = require('child_process').execSync;
 const fs = require('fs');
 const https = require('https');

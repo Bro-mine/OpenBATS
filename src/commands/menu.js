@@ -1,6 +1,6 @@
-const { Client, Intents} = require('discord.js');
+const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const Discord = require('discord.js');
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 const config = require('../../config.json');
 
 
@@ -8,10 +8,10 @@ client.on('ready', () => {
 	console.log('The Menu is ready');
 });
 
-const embed = new Discord.MessageEmbed()
+const embed = new EmbedBuilder()
 	.setTitle('Menu')
 	.setDescription('Shows drinks and snacks!')
-	.addField('-------------------------------------------------------------------------' + '\n\n**Try to order something! Just write -drink or -eat!**', 'Both lowercase and uppercase are valid.')
+	.addFields({name: "-------------------------------------------------------------------------", value: "\n\n**Try to order something! Just write -drink or -eat!** \nBoth lowercase and uppercase are valid."})
 	.addFields(
 		{ name: '**Drinks**', value: `
   Bepis
@@ -45,7 +45,7 @@ const embed = new Discord.MessageEmbed()
   Cake
   `, inline: true },
 	)
-	.setColor('#39A1FF');
+	.setColor('#2F4F4F');
 
 client.on('messageCreate', message => {
 

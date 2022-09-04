@@ -1,6 +1,6 @@
-const { Client, Intents} = require('discord.js');
+const { Client, GatewayIntentBits } = require('discord.js');
 const Discord = require('discord.js');
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 const config = require('../../../../config.json');
 const random = require('random');
 
@@ -15,7 +15,7 @@ client.on('messageCreate', message => {
 	// Picks a random message from the array above, use randomMessage to send a random message.
 	const randomMessage = messages[random.int((min = 0), (max = messages.length))];
 	
-	console.log(randomMessage);
+	//console.log(randomMessage);
 
 	if(message.content.toLowerCase() == '-eat burger and fries') {
 		message.channel.send(randomMessage);
